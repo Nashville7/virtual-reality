@@ -1,84 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Game Experience VR | 2026 Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bg-vignette"></div>
+    <div class="bg-mesh"></div>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Gaming Hub</title>
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-
-    <body>
-        <header>
-            <div class="inner">
-                <ul class="main-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h1>Game Experience VR</h1>
-                <p>A simple blog about virtual reality experiences</p>
-                <img class="img-featured" src="images/featured.jpg" alt="VR headset">
+    <header>
+        <nav class="inner">
+            <div class="logo">VR<span>Hub</span></div>
+            <ul class="main-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <section class="hero-content">
+            <div class="hero-glass">
+                <h1>Game Experience <span class="accent">VR</span></h1>
+                <p>Decoding the future of immersive virtual reality experiences.</p>
+                <div class="hero-image-wrapper">
+                    <img class="img-featured" src="images/featured.jpg" alt="VR headset">
+                </div>
+                <div class="intro">
+                    <p>Virtual Reality is no longer just entertainment; it's the new standard for architecture, industrial design, healthcare, and beyond.</p>
+                    <a class="btn-callout" href="#">Start Your VR Journey</a>
+                </div>
             </div>
-        </header>
-
-        <section class="intro">
-            <p> Virtual Reality is becoming well known as a form of<br/> entertainment, but it's also finding its way into fields like<br/>architecture, industrial design, healthcare, and so much<br/> more!</p>
-
-            <a class="btn-callout" href="#">Start Your VR Journey</a>
         </section>
+    </header>
 
-        <div class="main-content">
-            <div class="Entertainment">
-                <i class="material-icons icon">videocam</i>
-                <h1>Entertainment</h1>
-                <p>Hundreds of VR games and<br/> films have been released<br/> already.
-                    <a href="#">Oculus Story Studio</a><br/> is one example of a<br/> company producing VR<br/> films.</p>
+    <main class="main-content">
+        <div class="grid-container">
+            <div class="card entertainment">
+                <div class="card-icon"><i class="material-symbols-outlined">videocam</i></div>
+                <h2>Entertainment</h2>
+                <p>Hundreds of VR games and films have been released. <a href="#">Oculus Story Studio</a> is a pioneer in cinematic VR.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
-            <div class="Architectural">
-                <!-- an icon comes here -->
-                <h1>Architectural<br/> Visualization</h1>
-                <p>These experiences allow you<br/> to explore and interact with<br/> buildings and products in<br/> virtual reality.
-                    <a href="#">IKEA VR</a> is a<br/> popular example.</p>
+
+            <div class="card architectural">
+                <div class="card-icon"><i class="material-symbols-outlined">architecture</i></div>
+                <h2>Architectural Visualization</h2>
+                <p>Explore buildings and products before they exist. <a href="#">IKEA VR</a> is a leading example of interactive spaces.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
-            <div class="Education">
-                <!-- icon comes here -->
-                <h1>Education</h1>
-                <p>VR allows students to visit<br/> other places and other times.<br/> For instance, the BBC<br/> produced a
-                    <a href="#">360° video</a> that<br/> allows users to see the scale<br/> of dinosaurs in stereoscopic<br/> 3D.</p>
+
+            <div class="card education">
+                <div class="card-icon"><i class="material-symbols-outlined">school</i></div>
+                <h2>Education</h2>
+                <p>Visit other times and places. The BBC's <a href="#">360° video</a> demonstrates the true scale of prehistory.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
-            <div class="Simulation">
-                <!-- icon comes here -->
-                <h1>Simulation &<br/> Training </h1>
-                <p>In simulation and training,<br/> you can safely train for<br/> dangerous situations or<br/> hazardous environments.</p>
+
+            <div class="card simulation">
+                <div class="card-icon"><i class="material-symbols-outlined">construction</i></div>
+                <h2>Simulation & Training</h2>
+                <p>Safely train for dangerous situations or complex environments in a risk-free virtual world.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
-            <div class="Social">
-                <!-- icon comes here -->
-                <h1>Social Networking</h1>
-                <p>VR is finding its way into teleconferencing and social media. At<br/> the
-                    <a href="#">ethic conference in 2016</a>, Facebook demonstrated what it<br/> might look like in VR.</p>
+
+            <div class="card social">
+                <div class="card-icon"><i class="material-symbols-outlined">groups</i></div>
+                <h2>Social Networking</h2>
+                <p>Teleconferencing and social media are evolving. Discover the future of connection in VR.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
-            <div class="Games">
-                <!-- icon comes here -->
-                <h1>Games</h1>
-                <p>VR games let users experience a 3D environment, creating<br/> suspension of disbelief, which makes users
-                    experience
-                    the<br/> environment as real.</p>
+
+            <div class="card games">
+                <div class="card-icon"><i class="material-symbols-outlined">sports_esports</i></div>
+                <h2>Games</h2>
+                <p>Experience true suspension of disbelief. 3D environments that feel indistinguishable from reality.</p>
                 <a class="btn-info" href="#">Learn more</a>
             </div>
         </div>
+    </main>
 
-        <footer id="footer-container">
-            <span>&copy;Gaming Experience VR: Nate</span>
-        </footer>
-
-    </body>
-
-</html>
+    <footer id="footer-container">
+        <p>&copy; 2026 Gaming Experience VR. Built for the future.</p>
+    </footer>
+</body>
+</html>
